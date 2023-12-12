@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 class ApiService extends GetxController {
   static const String _baseUrl = 'https://newsapi.org/v2/';
-  static const String _apiKey = '8a9659ec17e64cef9b0a31dd2123885e';
+  static const String _apiKey = '129ce7419afb468faed12ab1f3520f58';
   static const String _category = 'business';
   static const String _country = 'us';
   RxList<Article> articles = RxList<Article>([]);
